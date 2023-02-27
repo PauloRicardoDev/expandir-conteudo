@@ -1,0 +1,24 @@
+div.produto{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 2px solid blueviolet;
+    padding: 2px;
+    border-radius: 10px;
+    cursor:pointer;
+    margin-top: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+section.container div.descricao-produto{
+    height: 0;
+    overflow: hidden;
+    transition: 1s;
+}
+section.container div.descricao-produto.ativo{
+    height: 150px;
+    transition: 1s;
+}
